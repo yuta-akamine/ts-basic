@@ -17,8 +17,5 @@ export default class World {
       // 取得したHTMLの要素にプロパティmessageの値を表示
       elem.innerText = this.message
     }
-
-
-
   }
 }
