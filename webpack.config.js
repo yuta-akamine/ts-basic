@@ -29,9 +29,10 @@ module.exports = {
 	devServer: {
 		// webpack-dev-serverがブラウザ起動する際に参照するディレクトリ
 	  // webpack-dev-serverの公開フォルダ
-    static: {
-      directory: path.join(__dirname, "dist"),
-    },
+		contentBase: path.join(__dirname, 'dist'),
+    // static: {
+    //   directory: path.join(__dirname, "dist"),
+    // },
 		open: true //ローカルサーバー立ち上げた際に自動的にブラウザが立ち上がる
 	},
   // モジュールに適用するルールの設定（ts-loaderの設定を行う事が多い）
