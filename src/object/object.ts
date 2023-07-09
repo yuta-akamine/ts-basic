@@ -1,10 +1,10 @@
 export default function objectSample() {
   // aという定数にobjectを定義
-  const a: object = {
-    name: 'Akamine',
-    age: 35
-  }
-  a.name // プロパティの型を定義していないのでそのプロパティは存在しないというエラーになる。
+  // const a: object = {
+  //   name: 'Akamine',
+  //   age: 35
+  // }
+  // a.name // プロパティの型を定義していないのでそのプロパティは存在しないというエラーになる。
 
   // オブジェクトリテラル記法で型定義
   let country: {
