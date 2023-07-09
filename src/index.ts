@@ -54,15 +54,29 @@
 // // Object alias sample 5: {hp: 300, sp: 100, mp: 100, weapon: '銀の剣', swordSkill: '三連切り', weapon: "銀の剣"}
 
 // 06.配列とタプルの型定義
-import tupleSample from "./array/tuple";
-import arraySample from "./array/array";
-arraySample()
-// Array array sample 1: (3) ['red', 'blue', 'yellow']
-// Array array sample 2: (4) [2, 4, 6, 8]
-// Array array sample 3: (4) ['ABC', 123, 'DEF', 456]
-// Array array sample 4: (3) [123, 'ABC', 456]
-// Array array sample 5: (3) ['git add', 'git commit', 'git push']
+// import tupleSample from "./array/tuple";
+// import arraySample from "./array/array";
+// arraySample()
+// // Array array sample 1: (3) ['red', 'blue', 'yellow']
+// // Array array sample 2: (4) [2, 4, 6, 8]
+// // Array array sample 3: (4) ['ABC', 123, 'DEF', 456]
+// // Array array sample 4: (3) [123, 'ABC', 456]
+// // Array array sample 5: (3) ['git add', 'git commit', 'git push']
 
-tupleSample()
-// Array tuple sample 1: (2) [200, 'OK']
-// Array tuple sample 2: (4) ['Kana', 'Miku', 'Keiko', 'Misa']
+// tupleSample()
+// // Array tuple sample 1: (2) [200, 'OK']
+// // Array tuple sample 2: (4) ['Kana', 'Miku', 'Keiko', 'Misa']
+
+// 06.ジェネリック型とポリモーフィズム
+import genericsAdvancedSample from "./generics/advanced";
+import genericsBasicSample from "./generics/basic";
+
+genericsBasicSample()
+// Generics basic sample 1: May the force be with you 
+// Generics basic sample 2: 1600
+// Generics basic sample 3: MAKE TYPESCRIPT GREAT AGAIN 
+// Generics basic sample 4: 400
+
+genericsAdvancedSample()
+// Generics advanced sample 1: (3) [123, 456, 789]
+// Generics advanced sample 2: (3) ['123', '456', '789']
